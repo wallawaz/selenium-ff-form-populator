@@ -1,24 +1,25 @@
-[Selenium Firefox Form-Populator]
+## Selenium Firefox Form-Populator ##
 
-[Install]
-1. ```sh
+### Install ###
+
+```
 sudo bash install_virtualenv.sh
 ```
-2. Create and Activate virtualenv
-```sh
+#### Create and Activate virtualenv ####
+```
 virtualenv venv
 source venv/bin/activate
 ```
-3. Install Selenium python packages (within virtualenv)
-```sh
+#### Install Selenium python packages (within virtualenv) ####
+```
 pip install -r requirements.txt
 ```
-4. Download Firefox (Gecko) Driver
-```sh
+#### Download Firefox (Gecko) Driver ####
+```
 bash download_ff.sh
 ```
 
-[Usage]
+## Usage ###
 ```
 python populate.py <weburl> <populate_value> (DEFAULT 600000)
 ```
